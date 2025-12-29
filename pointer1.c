@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     char c ='A';
-    char*cp = NULL;
+    char*cp = NULL; //초기화
     cp = &c;
     printf("%p%p%p\n",&c,cp,&cp);
     printf("%c%c\n",c,*cp);
